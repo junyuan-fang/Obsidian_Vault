@@ -1,30 +1,37 @@
 ---
 type: concept
-aliases: [流匹配, Conditional Flow Matching, CFM]
+aliases: [流匹配, Rectified Flow, Conditional Flow Matching]
 ---
 
 # Flow Matching
 
 ## 定义
-一种连续归一化流的训练方法，通过直接回归速度场实现从噪声到数据的确定性映射，相比扩散模型采样效率更高。
+
+一类生成模型训练范式：直接回归从数据分布到噪声分布的"速度场"$v_\theta(x_t, t)$，避免 [[Diffusion Model|扩散模型]] 的多步噪声调度，得到 rectified / 直线路径,推理步数更少。
 
 ## 数学形式
 
 $$
-\mathcal{L}_{\text{FM}} = \mathbb{E}_{t, \mathbf{x}_0, \boldsymbol{\epsilon}} \Big[ \lVert v_\theta(\mathbf{x}_t, t) - \mathbf{u}_t \rVert^2 \Big]
+\mathcal{L}_{\text{FM}} = \mathbb{E}_{t, x_0, \epsilon}\!\left[\| v_\theta(x_t, t) - (\epsilon - x_0) \|_2^2\right], \quad x_t = (1-t)x_0 + t\epsilon
 $$
 
-其中插值路径 $\mathbf{x}_t = (1-t)\mathbf{x}_0 + t\boldsymbol{\epsilon}$，目标速度 $\mathbf{u}_t = \boldsymbol{\epsilon} - \mathbf{x}_0$。
+预测速度 $v^* = \epsilon - x_0$，即从数据指向噪声的方向。
 
 ## 核心要点
-1. 学习速度场而非噪声预测，采样通过 ODE 求解
-2. 线性插值路径简单高效，可用 Euler 方法少步采样
-3. 训练稳定性优于 Score-based 方法
+
+1. **直线路径**: 训练后采样可用少量 ODE 步（甚至 1 步）完成
+2. **与扩散等价但更简洁**: 训练目标无 SNR 调度，超参更少
+3. **Rectified Flow**: 反复 "reflow" 让路径更直，进一步减步数
+4. SD3、Flux、[[Cosmos3]] 等大型生成模型已普遍采用
 
 ## 代表工作
-- [[MultiWorld]]: 基于 Flow Matching 的视频世界模型
-- [[GigaWorld-Policy]]: 使用流匹配同时训练动作和视频预测
+
+- Rectified Flow (Liu et al., 2022)：直线化路径
+- Flow Matching (Lipman et al., 2023)：通用条件框架
+- SD3 / Flux / [[Cosmos3]]：工业级 FM 主干
 
 ## 相关概念
-- [[ODE]]
-- [[DiT]]
+
+- [[Diffusion Model]]
+- [[Score Function]]
+- [[DMD]]

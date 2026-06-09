@@ -1,22 +1,28 @@
 ---
 type: concept
-aliases: [π₀, pi-zero, Pi Zero]
+aliases: [Pi0, π0, π0 VLA, Pi-0]
 ---
 
-# Pi0
+# π0 (Pi0)
 
 ## 定义
-Physical Intelligence 提出的通用机器人基础模型，基于预训练视觉-语言模型进行机器人动作预测，支持跨任务和跨机器人迁移。
+
+Physical Intelligence (PI) 公司发布的 [[VLA]] 基础模型，基于大规模视觉 / 视频预训练的 VLM 加上 flow matching 动作头，输出连续动作 chunk，已成为机器人圈最常用的 VLA 基线之一。后续 π0.5 进一步扩大数据 / 任务覆盖。
 
 ## 核心要点
-1. 基于大规模预训练的 VLM 骨干进行机器人策略学习
-2. 支持语言条件化的多任务操作
-3. 通过 flow matching 生成连续动作序列
+
+1. 通用机器人基座：覆盖单臂 / 双臂 / 桌面 / 家居等任务。
+2. Flow-matching 动作头，输出连续动作 chunk（论文中常用 $H_\pi{=}50$）。
+3. 支持冻结作为下游策略 / 评测对象。
+4. 在世界模型评测论文里被频繁用作"被评测策略"。
 
 ## 代表工作
-- Physical Intelligence, "π₀: A Vision-Language-Action Flow Model for General Robot Control" (2024)
-- [[Hi-WM]]: 作为策略骨干之一，后训练后在 Route Rope 任务达到 100% 成功率
+
+- [[PiL-World]]：把 π0 作为冻结被评测 VLA，在 3 个双臂任务上测想象 SR vs 真机 SR 的一致性。
 
 ## 相关概念
+
 - [[VLA]]
+- [[Action Chunking]]
+- [[Flow Matching]]
 - [[Diffusion Policy]]
