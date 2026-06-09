@@ -1,0 +1,112 @@
+[
+  {
+    "id": "2604.14268",
+    "date": "2026-04-25",
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
+  },
+  {
+    "id": "2604.18564",
+    "date": "2026-04-25",
+    "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models"
+  },
+  {
+    "id": "2509.19296",
+    "date": "2026-04-25",
+    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model\n  Self-Distillation"
+  },
+  {
+    "id": "2603.17240",
+    "date": "2026-04-25",
+    "title": "GigaWorld-Policy: An Efficient Action-Centered World--Action Model"
+  },
+  {
+    "id": "2603.19312",
+    "date": "2026-04-25",
+    "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels"
+  },
+  {
+    "id": "2604.20816v1",
+    "date": "2026-04-25",
+    "title": "ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control"
+  },
+  {
+    "id": "2604.21914v1",
+    "date": "2026-04-25",
+    "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis"
+  },
+  {
+    "id": "2604.21741v1",
+    "date": "2026-04-25",
+    "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training"
+  },
+  {
+    "id": "2604.21686v1",
+    "date": "2026-04-25",
+    "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models"
+  },
+  {
+    "id": "2604.21631v1",
+    "date": "2026-04-25",
+    "title": "DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures"
+  },
+  {
+    "id": "2604.21400v1",
+    "date": "2026-04-25",
+    "title": "You Only Gaussian Once: Controllable 3D Gaussian Splatting for Ultra-Densely Sampled Scenes"
+  },
+  {
+    "id": "2604.21182v1",
+    "date": "2026-04-25",
+    "title": "WildSplatter: Feed-forward 3D Gaussian Splatting with Appearance Control from Unconstrained Images"
+  },
+  {
+    "id": "2604.20627v1",
+    "date": "2026-04-25",
+    "title": "Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning"
+  },
+  {
+    "id": "2604.21924v1",
+    "date": "2026-04-25",
+    "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning"
+  },
+  {
+    "id": "2604.21894v1",
+    "date": "2026-04-25",
+    "title": "Task-Driven Co-Design of Heterogeneous Multi-Robot Systems"
+  },
+  {
+    "id": "2604.21640v1",
+    "date": "2026-04-25",
+    "title": "Task-specific Subnetwork Discovery in Reinforcement Learning for Autonomous Underwater Navigation"
+  },
+  {
+    "id": "2604.21541v1",
+    "date": "2026-04-25",
+    "title": "X2-N: A Transformable Wheel-legged Humanoid Robot with Dual-mode Locomotion and Manipulation"
+  },
+  {
+    "id": "2604.21453v1",
+    "date": "2026-04-25",
+    "title": "Instance-level Visual Active Tracking with Occlusion-Aware Planning"
+  },
+  {
+    "id": "2604.21363v1",
+    "date": "2026-04-25",
+    "title": "A Deployable Embodied Vision-Language Navigation System with Hierarchical Cognition and Context-Aware Exploration"
+  },
+  {
+    "id": "2604.21355v1",
+    "date": "2026-04-25",
+    "title": "RPG: Robust Policy Gating for Smooth Multi-Skill Transitions in Humanoid Fighting"
+  },
+  {
+    "id": "2604.21351v1",
+    "date": "2026-04-25",
+    "title": "Learn Weightlessness: Imitate Non-Self-Stabilizing Motions on Humanoid Robot"
+  },
+  {
+    "id": "2604.21331v1",
+    "date": "2026-04-25",
+    "title": "FingerViP: Learning Real-World Dexterous Manipulation with Fingertip Visual Perception"
+  }
+]
