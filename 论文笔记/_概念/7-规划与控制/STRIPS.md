@@ -32,7 +32,7 @@ $$
 ## 核心要点
 
 1. **可计算性**: 命题 STRIPS 规划是 PSPACE-完全
-2. **完备规划器**: BFS / [[A* Search]] / heuristic search（如 FF, LAMA）可在符号空间高效搜索
+2. **完备规划器**: BFS / [[A-star Search|A* Search]] / heuristic search（如 FF, LAMA）可在符号空间高效搜索
 3. **与现代 ML 的桥梁**: [[LatPlan]] / [[STRIPS-WM]] 试图从图像数据中自动学习 STRIPS 模型
 4. **Mask 互斥**: 良构 STRIPS 要求 $\text{add}_a \cap \text{del}_a = \emptyset$ 且 $\text{pre}^+_a \cap \text{pre}^-_a = \emptyset$
 
@@ -46,7 +46,7 @@ $$
 
 - [[Propositional Planning]]
 - [[Propositional Predicate]]
-- [[A* Search]]
+- [[A-star Search|A* Search]]
 - [[BFS]]
 - [[Closed-World Assumption]]
 - [[Mask Disjointness]]

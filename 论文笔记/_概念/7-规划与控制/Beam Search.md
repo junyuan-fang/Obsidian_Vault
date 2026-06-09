@@ -27,4 +27,4 @@ aliases: [束搜索]
 
 - [[BFS]]
 - [[Video World Model]]
-- [[A* Search]]
+- [[A-star Search|A* Search]]

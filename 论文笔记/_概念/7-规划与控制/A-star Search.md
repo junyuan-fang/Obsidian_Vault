@@ -1,6 +1,6 @@
 ---
 type: concept
-aliases: [A-star, A*, A star Search]
+aliases: [A-star, A*, A star Search, A* Search]
 ---
 
 # A* Search

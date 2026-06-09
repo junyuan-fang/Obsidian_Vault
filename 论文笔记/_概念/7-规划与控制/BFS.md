@@ -15,7 +15,7 @@ aliases: [Breadth-First Search, 广度优先搜索]
 
 ## 与本文关系
 
-[[STRIPS-WM]] 测试时用 BFS 或 [[A* Search]] 作为经典规划器；baseline **WM-BFS** 则在 [[FSQ]] 抽象图上跑 BFS（无算子结构，泛化差）。
+[[STRIPS-WM]] 测试时用 BFS 或 [[A-star Search|A* Search]] 作为经典规划器；baseline **WM-BFS** 则在 [[FSQ]] 抽象图上跑 BFS（无算子结构，泛化差）。
 
 ## 复杂度
 
@@ -24,6 +24,6 @@ aliases: [Breadth-First Search, 广度优先搜索]
 
 ## 相关概念
 
-- [[A* Search]]
+- [[A-star Search|A* Search]]
 - [[STRIPS]]
 - [[Propositional Planning]]
