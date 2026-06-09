@@ -1,21 +1,30 @@
 ---
 type: concept
-aliases: [Wan2.2, Wan2.2-5B, Wan Video Generation]
+aliases: [Wan2.1, Wan 2.1, Wan-2.1, 万相 2.1]
 ---
 
 # Wan2.1
 
 ## 定义
-阿里巴巴开源的文本到视频生成模型系列，基于 DiT 架构和 Flow Matching 训练，支持高分辨率长视频生成。
+
+Wan2.1 是阿里通义"万相"系列的开源视频扩散基座（14B 参数为主版本），支持文本/图像到视频生成，使用 spatial-temporal VAE + DiT 结构。在机器人 / 世界模型社区被广泛当做 finetune 基座，因为开源权重、VAE 质量高、支持长时序生成。
 
 ## 核心要点
-1. Wan2.2-5B 是 5B 参数量的视频生成 DiT 模型
-2. 支持文本到视频、图像到视频等多种任务
-3. 作为视频世界模型的常用 backbone
+
+1. 14B / 1.3B 多档参数。
+2. 自带视频 VAE，spatial-temporal latent，便于 latent video diffusion 工作流。
+3. 支持 image-to-video（I2V），天然契合"以当前观测为起点生成未来"的世界模型范式。
+4. 微调常走 LoRA，显存友好。
 
 ## 代表工作
-- [[MultiWorld]]: 以 Wan2.2-5B 为 backbone 构建多智能体视频世界模型
+
+- [[PiL-World]]：在 Wan2.1-14B 上 LoRA 微调，做多视角 chunk-wise 机器人世界模型。
+- 多个最近的 video world model / VLA video prior 工作都以 Wan 系列为基座。
 
 ## 相关概念
-- [[DiT]]
-- [[Flow Matching]]
+
+- [[Video Diffusion Model]]
+- [[Video Foundation Model]]
+- [[LoRA]]
+- [[VAE]]
+- [[Cosmos]]

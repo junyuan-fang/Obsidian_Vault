@@ -1,112 +1,337 @@
 [
   {
-    "id": "2604.14268",
-    "date": "2026-04-25",
-    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds"
+    "id": "2606.02800",
+    "date": "2026-06-05",
+    "title": "Cosmos 3: Omnimodal World Models for Physical AI"
   },
   {
-    "id": "2604.18564",
-    "date": "2026-04-25",
-    "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models"
+    "id": "2606.05160",
+    "date": "2026-06-05",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors"
   },
   {
-    "id": "2509.19296",
-    "date": "2026-04-25",
-    "title": "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model\n  Self-Distillation"
+    "id": "2606.03890",
+    "date": "2026-06-05",
+    "title": "OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs"
   },
   {
-    "id": "2603.17240",
-    "date": "2026-04-25",
-    "title": "GigaWorld-Policy: An Efficient Action-Centered World--Action Model"
+    "id": "2510.22200",
+    "date": "2026-06-05",
+    "title": "LongCat-Video Technical Report"
   },
   {
-    "id": "2603.19312",
-    "date": "2026-04-25",
-    "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels"
+    "id": "2509.24695",
+    "date": "2026-06-05",
+    "title": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer"
   },
   {
-    "id": "2604.20816v1",
-    "date": "2026-04-25",
-    "title": "ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control"
+    "id": "2602.06036",
+    "date": "2026-06-05",
+    "title": "DFlash: Block Diffusion for Flash Speculative Decoding"
   },
   {
-    "id": "2604.21914v1",
-    "date": "2026-04-25",
-    "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis"
+    "id": "2605.30263",
+    "date": "2026-06-04",
+    "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models"
   },
   {
-    "id": "2604.21741v1",
-    "date": "2026-04-25",
-    "title": "Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training"
+    "id": "2602.08968",
+    "date": "2026-06-04",
+    "title": "stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation"
   },
   {
-    "id": "2604.21686v1",
-    "date": "2026-04-25",
-    "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models"
+    "id": "2606.03609",
+    "date": "2026-06-04",
+    "title": "A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature"
   },
   {
-    "id": "2604.21631v1",
-    "date": "2026-04-25",
-    "title": "DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures"
+    "id": "2606.03252",
+    "date": "2026-06-04",
+    "title": "AirDreamer: Generalist Drone Navigation with World Models"
   },
   {
-    "id": "2604.21400v1",
-    "date": "2026-04-25",
-    "title": "You Only Gaussian Once: Controllable 3D Gaussian Splatting for Ultra-Densely Sampled Scenes"
+    "id": "2606.03971",
+    "date": "2026-06-04",
+    "title": "Video-Mirai: Autoregressive Video Diffusion Models Need Foresight"
   },
   {
-    "id": "2604.21182v1",
-    "date": "2026-04-25",
-    "title": "WildSplatter: Feed-forward 3D Gaussian Splatting with Appearance Control from Unconstrained Images"
+    "id": "2606.03685",
+    "date": "2026-06-04",
+    "title": "A Close Look At World Model Recovery In Supervised Fine-Tuned LLM Planners"
   },
   {
-    "id": "2604.20627v1",
-    "date": "2026-04-25",
-    "title": "Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning"
+    "id": "2606.03479",
+    "date": "2026-06-04",
+    "title": "PersistGS: Differentiable Physics for Object Permanence in 4D Gaussian Splatting"
   },
   {
-    "id": "2604.21924v1",
-    "date": "2026-04-25",
-    "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning"
+    "id": "2606.03159",
+    "date": "2026-06-04",
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
   },
   {
-    "id": "2604.21894v1",
-    "date": "2026-04-25",
-    "title": "Task-Driven Co-Design of Heterogeneous Multi-Robot Systems"
+    "id": "2606.03943",
+    "date": "2026-06-04",
+    "title": "PointAction: 3D Points as Universal Action Representations for Robot Control"
   },
   {
-    "id": "2604.21640v1",
-    "date": "2026-04-25",
-    "title": "Task-specific Subnetwork Discovery in Reinforcement Learning for Autonomous Underwater Navigation"
+    "id": "2606.03682",
+    "date": "2026-06-04",
+    "title": "GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation"
   },
   {
-    "id": "2604.21541v1",
-    "date": "2026-04-25",
-    "title": "X2-N: A Transformable Wheel-legged Humanoid Robot with Dual-mode Locomotion and Manipulation"
+    "id": "2606.03603",
+    "date": "2026-06-04",
+    "title": "World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning"
   },
   {
-    "id": "2604.21453v1",
-    "date": "2026-04-25",
-    "title": "Instance-level Visual Active Tracking with Occlusion-Aware Planning"
+    "id": "2606.03593",
+    "date": "2026-06-04",
+    "title": "Making Embodied AI Reliable: A Community Agenda from Testing to Formal Verification"
   },
   {
-    "id": "2604.21363v1",
-    "date": "2026-04-25",
-    "title": "A Deployable Embodied Vision-Language Navigation System with Hierarchical Cognition and Context-Aware Exploration"
+    "id": "2606.03392",
+    "date": "2026-06-04",
+    "title": "OpenEAI-Platform: An Open-source Embodied Artificial Intelligence Hardware-Software Unified Platform"
   },
   {
-    "id": "2604.21355v1",
-    "date": "2026-04-25",
-    "title": "RPG: Robust Policy Gating for Smooth Multi-Skill Transitions in Humanoid Fighting"
+    "id": "2606.03335",
+    "date": "2026-06-04",
+    "title": "GPU-Parallel Multi-Task Reinforcement Learning with Demonstration Guided Policy Optimization"
   },
   {
-    "id": "2604.21351v1",
-    "date": "2026-04-25",
-    "title": "Learn Weightlessness: Imitate Non-Self-Stabilizing Motions on Humanoid Robot"
+    "id": "2606.03297",
+    "date": "2026-06-04",
+    "title": "SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation"
   },
   {
-    "id": "2604.21331v1",
-    "date": "2026-04-25",
-    "title": "FingerViP: Learning Real-World Dexterous Manipulation with Fingertip Visual Perception"
+    "id": "2606.03254",
+    "date": "2026-06-04",
+    "title": "FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs"
+  },
+  {
+    "id": "2606.03201",
+    "date": "2026-06-04",
+    "title": "Reinforcement Learning from Cross-domain Videos with Video Prediction Model"
+  },
+  {
+    "id": "2606.03994",
+    "date": "2026-06-04",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image"
+  },
+  {
+    "id": "2606.03949",
+    "date": "2026-06-04",
+    "title": "Preference-Calibrated Human-in-the-Loop Reinforcement Learning for Robotic Manipulation"
+  },
+  {
+    "id": "2606.03926",
+    "date": "2026-06-04",
+    "title": "DiffUNet^2: Bidirectional Prediction, Probabilistic Generation and Collaborative Visual Discovery for Scientific Data"
+  },
+  {
+    "id": "2606.03877",
+    "date": "2026-06-04",
+    "title": "MLP Splatting: Object-Centric Neural Fields"
+  },
+  {
+    "id": "2606.05773",
+    "date": "2026-06-08",
+    "title": "PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation"
+  },
+  {
+    "id": "2606.05979",
+    "date": "2026-06-08",
+    "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis"
+  },
+  {
+    "id": "2606.05699",
+    "date": "2026-06-08",
+    "title": "DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use"
+  },
+  {
+    "id": "2606.06390",
+    "date": "2026-06-08",
+    "title": "HomeWorld: A Unified Floorplan-to-Furnished Framework for Generating Controllable, Densely Interactive Whole-Home Scenes"
+  },
+  {
+    "id": "2606.06491",
+    "date": "2026-06-08",
+    "title": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies"
+  },
+  {
+    "id": "2606.06493",
+    "date": "2026-06-08",
+    "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers"
+  },
+  {
+    "id": "2606.05873",
+    "date": "2026-06-08",
+    "title": "LadderMan: Learning Humanoid Perceptive Ladder Climbing"
+  },
+  {
+    "id": "2606.06218",
+    "date": "2026-06-08",
+    "title": "TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation"
+  },
+  {
+    "id": "2606.05660",
+    "date": "2026-06-08",
+    "title": "Safe Embodied AI for Long-horizon Tasks: A Cross-layer Analysis of Robotic Manipulation"
+  },
+  {
+    "id": "2606.06014",
+    "date": "2026-06-08",
+    "title": "PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models"
+  },
+  {
+    "id": "2606.05960",
+    "date": "2026-06-08",
+    "title": "Towards a Data Flywheel for Embodied Intelligence in Logistics"
+  },
+  {
+    "id": "2606.06323",
+    "date": "2026-06-08",
+    "title": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies"
+  },
+  {
+    "id": "2606.06194",
+    "date": "2026-06-08",
+    "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception"
+  },
+  {
+    "id": "2606.06281",
+    "date": "2026-06-08",
+    "title": "MiTaS: Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation"
+  },
+  {
+    "id": "2606.05558",
+    "date": "2026-06-08",
+    "title": "ADWM: Autoregressive Diffusion World Models for Off-Policy Evaluation of LLM Agents"
+  },
+  {
+    "id": "2606.06418",
+    "date": "2026-06-08",
+    "title": "DoPr: Double Preconditioning — Optimization for Test-Time Performance, not Validation Loss"
+  },
+  {
+    "id": "2606.06312",
+    "date": "2026-06-08",
+    "title": "Meridian: Metric-Semantic Primitive Matching for Cross-View Geo-Localization Beyond Urban Environments"
+  },
+  {
+    "id": "2606.06255",
+    "date": "2026-06-08",
+    "title": "RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning"
+  },
+  {
+    "id": "2606.06219",
+    "date": "2026-06-08",
+    "title": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving"
+  },
+  {
+    "id": "2606.06292",
+    "date": "2026-06-08",
+    "title": "ClothKeypoint: Synthetic Data Generation and Vision-based Wrinkle and Keypoint Detection for Bimanual Cloth Manipulation"
+  },
+  {
+    "id": "2606.06832",
+    "date": "2026-06-09",
+    "title": "STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images"
+  },
+  {
+    "id": "2606.07089",
+    "date": "2026-06-09",
+    "title": "AdaWAM: Dreaming when Necessary — Advancing World Action Models with Adaptive Multi-Modal Reasoning"
+  },
+  {
+    "id": "2606.07100",
+    "date": "2026-06-09",
+    "title": "LARA: Latent Action Representation Alignment for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.07118",
+    "date": "2026-06-09",
+    "title": "QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation"
+  },
+  {
+    "id": "2606.07017",
+    "date": "2026-06-09",
+    "title": "SimToRealFM: The Sim-to-Real Gap of Foundation Model Agents — A Unified MDP Perspective"
+  },
+  {
+    "id": "2606.07386",
+    "date": "2026-06-09",
+    "title": "SplinePolicy: A Structured Representation for Robot Policies"
+  },
+  {
+    "id": "2606.07383",
+    "date": "2026-06-09",
+    "title": "RhinoVLA Technical Report"
+  },
+  {
+    "id": "2606.07304",
+    "date": "2026-06-09",
+    "title": "CAPE: Contrastive Action-conditioned Parallel Encoding for Embodied Planning"
+  },
+  {
+    "id": "2606.07217",
+    "date": "2026-06-09",
+    "title": "WSML: Robotic Policy Adaptation via Weight-Space Meta-Learning"
+  },
+  {
+    "id": "2606.07193",
+    "date": "2026-06-09",
+    "title": "ShieldLoco: Shielding Locomotion Policies with Predictive Safety Filtering"
+  },
+  {
+    "id": "2606.07107",
+    "date": "2026-06-09",
+    "title": "CoarseToControl: Action-Token Planning for Vision-Language-Action Models"
+  },
+  {
+    "id": "2606.07083",
+    "date": "2026-06-09",
+    "title": "PSM: Predictive Style Matching — Natural and Robust Humanoid Locomotion"
+  },
+  {
+    "id": "2606.06904",
+    "date": "2026-06-09",
+    "title": "ActionMap: Robot Policy Learning via Voxel Action Heatmap"
+  },
+  {
+    "id": "2606.07012",
+    "date": "2026-06-09",
+    "title": "TaskEdit: Task Editing for Generalizable 3D Visuomotor Policy Learning"
+  },
+  {
+    "id": "2606.06967",
+    "date": "2026-06-09",
+    "title": "GenPO++: Generative Policy Optimization with Jacobian-free Likelihood Ratios"
+  },
+  {
+    "id": "2606.06944",
+    "date": "2026-06-09",
+    "title": "T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion"
+  },
+  {
+    "id": "2606.07506",
+    "date": "2026-06-09",
+    "title": "PediHRL: Affordance-Based Hierarchical Reinforcement Learning for Quadruped Pedipulation"
+  },
+  {
+    "id": "2606.07389",
+    "date": "2026-06-09",
+    "title": "SimProsthetic: Simulation-Driven Imitation Learning for Biosignals-Free Shared-Autonomy Prosthetic Grasping"
+  },
+  {
+    "id": "2606.06877",
+    "date": "2026-06-09",
+    "title": "NeuroSymPlan: Neuro-Symbolic Learning for Long-Horizon Task Planning Under Complex Logical Constraints"
+  },
+  {
+    "id": "2606.07244",
+    "date": "2026-06-09",
+    "title": "BeyondWP: A Trajectory-Centric Waypointing Paradigm for Vision-Language Navigation"
   }
 ]

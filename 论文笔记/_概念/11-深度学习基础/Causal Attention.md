@@ -1,29 +1,25 @@
 ---
 type: concept
-aliases: [因果注意力, Causal Self-Attention, 因果掩码注意力]
+aliases: [Causal Attention, 因果注意力]
 ---
 
 # Causal Attention
 
 ## 定义
-一种注意力机制约束，通过掩码确保每个 token 只能关注其之前（或特定集合内）的 token，防止信息泄露。
+在 self-attention 上施加下三角 mask，使每个 token 只能 attend 到自身及历史 token，是自回归生成的基础。
 
 ## 数学形式
-
 $$
-\text{Attention}(Q, K, V) = \text{softmax}\Big(\frac{QK^\top}{\sqrt{d_k}} + M\Big)V
+$\text{Attn}_{causal}(Q,K,V)_i = \mathrm{softmax}((QK^\top)_{i,\le i})V_{\le i}$
 $$
-
-其中 $M$ 为因果掩码矩阵，$M_{ij} = -\infty$ 当 token $i$ 不应关注 token $j$。
 
 ## 核心要点
-1. GPT 系列模型中的标准做法，防止"看到未来"
-2. 可扩展为块级因果掩码，对不同模态的 token 施加不同的注意力约束
-3. GigaWorld-Policy 利用块级因果掩码实现动作预测与视频预测的解耦
+1. GPT 风格 LM 的核心
+2. 在视频/扩散里通常作用在时间维度，对帧内仍保持双向
 
 ## 代表工作
-- [[GigaWorld-Policy]]: 块级因果掩码使动作 token 不依赖未来视频 token
+- [[minWM]]: Stage 1 把双向 DiT 改为因果生成
 
 ## 相关概念
-- [[Cross-Attention]]
-- [[Diffusion Transformer]]
+- [[Self-Attention]]
+- [[Causal Forcing]]
